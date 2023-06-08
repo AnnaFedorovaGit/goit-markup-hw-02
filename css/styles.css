@@ -1,0 +1,183 @@
+:root {
+  --primary-dark-color: #434455;
+  --secondary-dark-color: #2e2f42;
+  --primary-white-color: #ffffff;
+  --border-light-color: #e7e9fc;
+  --bg-color1: #fcfcfc;
+  --bg-color2: #f4f4fd;
+  --active-link-color: #404bbf;
+  --blue-color: #4d5ae5;
+}
+
+/* styles for MAIN PAGE, HEADER, FOOTER */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--primary-dark-color);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+/* styles for HEADER */
+
+header {
+  background-color: var(--primary-white-color);
+  border-bottom: 1px solid var(--border-light-color);
+}
+
+.logo-name {
+  color: var(--blue-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-dark-color1 {
+  color: var(--secondary-dark-color);
+}
+
+li {
+  list-style: none;
+  font-style: normal;
+}
+
+.link-pages,
+.link-pages:active {
+  color: var(--secondary-dark-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link-pages:hover,
+.link-pages:focus {
+  color: var(--active-link-color);
+  text-decoration: underline var(--active-link-color) 4px;
+  /* як закруглити підкреслення при наведенні */
+  border-radius: 2px;
+}
+
+.link-address {
+  color: var(--primary-dark-color);
+  text-decoration: none;
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: var(--active-link-color);
+}
+
+/* styles for content of MAIN PAGE */
+
+main {
+  background-color: var(--bg-color1);
+}
+
+.section-1 {
+  background-color: var(--secondary-dark-color);
+  text-align: center;
+}
+
+.title-first {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button.order-service {
+  border: none;
+  color: var(--primary-white-color);
+  background-color: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button.order-service:hover,
+.button.order-service:focus,
+.button.filter:hover,
+.button.filter:focus {
+  cursor: pointer;
+  background-color: var(--active-link-color);
+}
+
+h2 {
+  color: var(--secondary-dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--secondary-dark-color);
+}
+
+img {
+  border: 1px solid var(--border-light-color);
+}
+
+.team {
+  background-color: var(--bg-color2);
+}
+
+.team-cards {
+  background-color: var(--primary-white-color);
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* styles for FOOTER */
+
+footer {
+  background-color: var(--secondary-dark-color);
+  color: var(--bg-color2);
+}
+
+.logo-dark-color2 {
+  color: var(--bg-color2);
+}
+
+/* styles for content of PORTFOLIO */
+
+.filter {
+  color: var(--blue-color);
+  background-color: var(--bg-color2);
+  border: 1px solid var(--border-light-color);
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--primary-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.section-block {
+  border: 1px solid var(--border-light-color);
+}
+
+/* .work-example {
+  border: none;
+} */
