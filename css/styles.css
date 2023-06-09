@@ -9,8 +9,6 @@
   --blue-color: #4d5ae5;
 }
 
-/* styles for MAIN PAGE, HEADER, FOOTER */
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -50,7 +48,6 @@ li {
 .link-pages,
 .link-pages:active {
   color: var(--secondary-dark-color);
-  font-size: 16px;
   font-weight: 500;
   text-decoration: none;
 }
@@ -59,8 +56,6 @@ li {
 .link-pages:focus {
   color: var(--active-link-color);
   text-decoration: underline var(--active-link-color) 4px;
-  /* як закруглити підкреслення при наведенні */
-  border-radius: 2px;
 }
 
 .link-address {
@@ -93,6 +88,7 @@ main {
 
 .button {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -174,10 +170,10 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.section-block {
+.work-example {
   border: 1px solid var(--border-light-color);
 }
 
-/* .work-example {
+.pictures {
   border: none;
-} */
+}
