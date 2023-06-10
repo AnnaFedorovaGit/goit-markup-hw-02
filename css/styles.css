@@ -21,10 +21,6 @@ body {
 
 /* styles for HEADER */
 
-header {
-  border-bottom: 1px solid var(--border-light-color);
-}
-
 .logo {
   color: var(--blue-color);
   font-family: "Raleway", sans-serif;
@@ -44,11 +40,14 @@ header {
   color: var(--secondary-dark-color);
 }
 
-.list {
+.list,
+.list .address.link,
+.work-example.link {
+  color: var(--primary-dark-color);
   list-style: none;
 }
 
-.list .link {
+.list .navigation.link {
   color: var(--secondary-dark-color);
   font-weight: 500;
   font-size: 16px;
@@ -56,8 +55,8 @@ header {
   letter-spacing: 0.02em;
 }
 
-.list .link:hover,
-.list .link:focus {
+.list .navigation.link:hover,
+.list .navigation.link:focus {
   color: var(--active-link-color);
   text-decoration: underline var(--active-link-color) 4px;
 }
@@ -66,18 +65,8 @@ header {
   font-style: normal;
 }
 
-.contacts:hover,
-.contacts:focus {
-  color: var(--active-link-color);
-}
-
-.link-address {
-  color: var(--primary-dark-color);
-  text-decoration: none;
-}
-
-.link-address:hover,
-.link-address:focus {
+.list .address.link:hover,
+.list .address.link:focus {
   color: var(--active-link-color);
 }
 
@@ -133,7 +122,7 @@ header {
   text-transform: capitalize;
 }
 
-h3,
+.title-3,
 .portfolio {
   font-weight: 500;
   font-size: 20px;
@@ -151,6 +140,7 @@ img {
 }
 
 .team-cards {
+  background-color: var(--primary-white-color);
   text-align: center;
 }
 
