@@ -118,6 +118,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -135,7 +136,7 @@ img {
   border: 1px solid var(--border-light-color);
 }
 
-.team {
+.section-4 {
   background-color: var(--bg-color2);
 }
 
