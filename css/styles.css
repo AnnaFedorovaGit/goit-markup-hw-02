@@ -16,13 +16,9 @@ body {
   background-color: var(--primary-white-color);
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: 0.02em;
 }
 
-/* styles for HEADER */
-
 .logo {
-  color: var(--blue-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -31,24 +27,33 @@ body {
   text-transform: uppercase;
 }
 
-.link,
-.work-example.link {
-  text-decoration: none;
+.logo-blue,
+.filter {
+  color: var(--blue-color);
 }
 
-.logo-color-one {
-  color: var(--secondary-dark-color);
-}
-
-.list,
-.list .address.link,
-.work-example.link {
-  color: var(--primary-dark-color);
+.list {
   list-style: none;
 }
 
-.list .navigation.link {
+.link {
+  text-decoration: none;
+}
+
+.list .address.link,
+.work-example.link {
+  color: var(--primary-dark-color);
+}
+
+.logo-color-one,
+.list .navigation.link,
+.title-two,
+.title-three,
+.portfolio {
   color: var(--secondary-dark-color);
+}
+
+.list .navigation.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -56,27 +61,18 @@ body {
 }
 
 .list .navigation.link:hover,
-.list .navigation.link:focus {
+.list .navigation.link:focus,
+.list .address.link:hover,
+.list .address.link:focus {
   color: var(--active-link-color);
-  text-decoration: underline var(--active-link-color) 4px;
 }
 
 .contacts {
   font-style: normal;
 }
 
-.list .address.link:hover,
-.list .address.link:focus {
-  color: var(--active-link-color);
-}
-
-/* styles for content of MAIN PAGE */
-
-.main-block {
-  background-color: var(--bg-color-one);
-}
-
-.section-one {
+.section-one,
+footer {
   background-color: var(--secondary-dark-color);
 }
 
@@ -91,7 +87,6 @@ body {
 
 .button {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   font-weight: 500;
@@ -114,7 +109,6 @@ body {
 }
 
 .title-two {
-  color: var(--secondary-dark-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -128,11 +122,10 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  color: var(--secondary-dark-color);
   letter-spacing: 0.02em;
 }
 
-img {
+.image-border {
   border: 1px solid var(--border-light-color);
 }
 
@@ -145,21 +138,12 @@ img {
   text-align: center;
 }
 
-/* styles for FOOTER */
-
-footer {
-  background-color: var(--secondary-dark-color);
-  color: var(--bg-color-two);
-}
-
+footer,
 .logo-color-two {
   color: var(--bg-color-two);
 }
 
-/* styles for content of PORTFOLIO */
-
 .filter {
-  color: var(--blue-color);
   background-color: var(--bg-color-two);
   border: 1px solid var(--border-light-color);
 }
@@ -169,18 +153,10 @@ footer {
   color: var(--primary-white-color);
 }
 
-.work-example {
-  border: 1px solid var(--border-light-color);
-}
-
 .work-example.link:hover,
 .work-example.link:focus {
   text-decoration: none;
   color: var(--secondary-dark-color);
-}
-
-.pictures {
-  border: none;
 }
 
 .portfolio {
