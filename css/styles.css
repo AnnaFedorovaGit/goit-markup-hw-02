@@ -18,7 +18,7 @@ body {
   line-height: 150%;
 }
 
-.logo {
+.nav-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -27,7 +27,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo-blue,
+.nav-logo-blue,
 .filter {
   color: var(--blue-color);
 }
@@ -40,27 +40,27 @@ body {
   text-decoration: none;
 }
 
-.list .address.link,
+.contacts-item.link,
 .work-example.link {
   color: var(--primary-dark-color);
 }
 
-.logo-color-one,
-.list .navigation.link,
+.nav-logo-dark,
+.nav-item.link,
 .title-two,
 .title-three,
 .portfolio {
   color: var(--secondary-dark-color);
 }
 
-.list .navigation.link {
+.nav-item.link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.list .navigation.link,
-.address,
+.nav-item.link,
+.contacts-item,
 .title-one,
 .title-two,
 .title-three,
@@ -68,15 +68,14 @@ body {
 .text {
   letter-spacing: 0.02em;
 }
-
-.list .navigation.link:hover,
-.list .navigation.link:focus,
-.list .address.link:hover,
-.list .address.link:focus {
+.nav-item.link:hover,
+.nav-item.link:focus,
+.contacts-item.link:hover,
+.contacts-item.link:focus {
   color: var(--active-link-color);
 }
 
-.contacts {
+.nav-contacts {
   font-style: normal;
 }
 
@@ -145,7 +144,7 @@ footer {
 }
 
 footer,
-.logo-color-two {
+.nav-logo-light {
   color: var(--bg-color-two);
 }
 
